@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    new_balance = @balance + amount
+    new_balance = "#{@balance}"" + amount
     new_balance
   end
 
