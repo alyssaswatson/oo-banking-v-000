@@ -13,4 +13,8 @@ class BankAccount
     new_balance    
   end
 
+  def display_balance
+
+  end
+
 end
