@@ -16,7 +16,7 @@ class Transfer
     if valid? && @sender.balance >= @amount && @status != "complete"
       @sender.deposit(-@amount)
       @receiver.deposit(@amount)
-      @status = complete
+      @status = "complete"
     else
       "Transaction rejected. Please check your account balance."
     end
