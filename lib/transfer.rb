@@ -13,7 +13,7 @@ class Transfer
   end
 
   def execute_transaction
-    if Transfer.valid?
+    if valid?
 
     end
   end
